@@ -1,0 +1,41 @@
+.head_div{
+    background-color: yellow;
+    box-shadow: 8px 8px 8px;
+    text-align: center;
+}
+#head{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    color: darkmagenta;
+}
+@keyframes example{
+    from{box-shadow: 2px 2px 80px darkblue;}
+    to{box-shadow: 2px 2px 80px magenta;}
+}
+#image_1{
+    width: 350px;
+    height: 350px;
+}
+.test_image_1{
+    margin-top: 150px;
+    width: 900px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px green;
+    margin-left: 300px;
+}
+.test_1_label{
+    border-radius: 10px;
+    vertical-align: top;
+}
+#final_result{
+    background-color: yellow;
+    color: red;
+    box-shadow: royalblue;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 5px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
